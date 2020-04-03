@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>InfCorn Information of Corona viruses</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<!-- jQuery library -->
+<script src="js/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<style>
+
+  body{
+    background-image: url(icons/veve.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 99vh;
+    background-repeat: no-repeat;
+  }
+
+  .stat{
+    background: rgba(0,0,0,0.5);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    background-attachment: fixed;
+    margin-top: 209px;
+  }
+
+  .stat img{
+    width: 80px;
+  }
+
+  .stat-times h2{
+    font-weight: bold;
+    letter-spacing: 1px;
+    fot-size: 42px;
+    color: darkorange;
+  }
+
+  .stat p{
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .stat h1{
+    align-items: center;
+    color: orange;
+    display: inline-flex;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+
+</style>
+
+
+  </head>
+  <body>
+    <section class="stat" id="stats">
+          <center><h1>
+            PERKEMBANGAN VIRUS COVID-19
+            <br>
+            DI NEGARA Indonesia
+          </h1></center>
+      <div class="content-box">
+        <br><br>
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-3">
+              <div class="stat-times">
+                <img src="icons/shock.png" alt="">
+                <h2><span class="counter text-counter">1790</span><span></span></h2>
+                <p>POSITIF TERINFEKSI</p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="stat-times">
+                <img src="icons/dead.png" alt="">
+                <h2><span class="counter text-counter">170</span><span></span></h2>
+                <p>MENINGGAL DUNIA</p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="stat-times">
+                <img src="icons/sad.png" alt="">
+                <h2><span class="counter text-counter">1508</span><span></span></h2>
+                <p>DALAM PERAWATAN</p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="stat-times">
+                <img src="icons/happy.png" alt="">
+                <h2><span class="counter text-counter">112</span><span></span></h2>
+                <p>DINYATAKAN SEMBUH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="Counter-Up/jquery.counterup.min.js"></script>
+<script>
+
+  jQuery(document).ready(function(){
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+    });
+  });
+</script>
+  </body>
+</html>
