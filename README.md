@@ -30,6 +30,7 @@ This Script Use Api Data From  : https://api.kawalcorona.com/
 6. Sed
 7. Jq
 
+note : not working in Chrome use Firefox Only
 ```
 
 ### Download and install:
@@ -46,6 +47,10 @@ This Script Use Api Data From  : https://api.kawalcorona.com/
   $ sudo apt-get install xdotool
   $ sudo apt-get install sed
   $ sudo apt-get install curl
+  
+  # Running
+  $ bash priv8.sh
+
 ```
 ### Commands:
 ```bash
