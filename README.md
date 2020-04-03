@@ -20,7 +20,7 @@
 This tool uses a basic bash script with wmctrl and xdtool functions, this tool is to help people
 who want to see coronavirus cases in all countries.
 
-This Script Gets Data From  : https://api.kawalcorona.com/
+This Script Use Api Data From  : https://api.kawalcorona.com/
 
 1. Html, Css
 2. Php Web Server
