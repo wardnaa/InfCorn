@@ -36,7 +36,7 @@ note : not working in Chrome use Firefox Only
 ### Download and install:
 ```bash
   # Download
-  $ git https://github.com/wardnaa/InfCorn
+  $ git clone https://github.com/wardnaa/InfCorn
   $ cd InfCorn
     
   # Requirments
